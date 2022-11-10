@@ -1,0 +1,1 @@
+docker inspect postgres_container | grep IPAddress
