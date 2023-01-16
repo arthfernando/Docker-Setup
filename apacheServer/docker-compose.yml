@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  apache:
+    image: myapache2
+    container_name: myapache2
+    ports:
+    - '8080:80'
+    volumes:
+    - ./website:/usr/local/apache2/htdocs
